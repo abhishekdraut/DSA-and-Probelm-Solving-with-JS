@@ -3,8 +3,6 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-    
-    
     const wordsArray=s.split(" ");
     for (let i=0;i<wordsArray.length;i++){
        if(wordsArray[i]==""){
