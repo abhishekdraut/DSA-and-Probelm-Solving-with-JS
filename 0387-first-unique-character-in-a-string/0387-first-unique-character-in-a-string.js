@@ -15,7 +15,7 @@ var firstUniqChar = function(s) {
             obj[s[item]]=1
         }
     }
-    console.log(obj)
+    
     for (let index in s){
         if(obj[s[index]]==1){
             return index
